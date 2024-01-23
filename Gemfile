@@ -15,7 +15,7 @@ group :development do
 end
 
 group :development, :test do
-  gem "grade_runner"
+  gem "grade_runner", github: 'firstdraft/grade_runner', branch: 'bp-test-render-deploy'
   gem "pry"
   gem "sqlite3", "~> 1.4"
 end
